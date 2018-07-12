@@ -1,0 +1,8 @@
+﻿Buildfile: C:\Users\G9SUND\Documents\Mendix\Learning-MVVM\deployment\build_core.xml
+
+clean:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

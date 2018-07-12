@@ -1,0 +1,10 @@
+﻿Buildfile: C:\Users\G9SUND\Documents\Mendix\Learning-MVVM\deployment\build_core.xml
+
+deploy:
+     [copy] Copying 44 files to C:\Users\G9SUND\Documents\Mendix\Learning-MVVM\deployment
+     [copy] Copying 14 files to C:\Users\G9SUND\Documents\Mendix\Learning-MVVM\deployment\model\lib\userlib
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+
+

@@ -1,0 +1,24 @@
+/*C2*/SET SCHEMA PUBLIC
+DELETE FROM "mendixsystem$version" WHERE "versionnumber"='4.2'
+INSERT INTO "mendixsystem$version" VALUES('4.2','2018-07-12 14:05:59.691000','3.0.0','unversioned','Learning-MVVM')
+COMMIT
+DELETE FROM "system$userrole" WHERE "id"=2814749767106561
+INSERT INTO "system$userrole" VALUES(2814749767106561,'8dd52bfa-6d7e-453b-b506-303c0a3d9567','','Administrator')
+DELETE FROM "system$userrole" WHERE "id"=2814749767106562
+INSERT INTO "system$userrole" VALUES(2814749767106562,'53f5d6fa-6da9-4a71-b011-454ec052cce8','','User')
+COMMIT
+DELETE FROM "mendixsystem$properties" WHERE "key"='Mendix.Runtime.DeploymentID'
+INSERT INTO "mendixsystem$properties" VALUES('Mendix.Runtime.DeploymentID','636670019238801785')
+COMMIT
+DELETE FROM "system$session" WHERE "id"=6473924464345089
+DELETE FROM "system$session_user" WHERE "system$sessionid"=6473924464345089 AND "system$userid"=281474976710657
+COMMIT
+/*C3*/SET SCHEMA PUBLIC
+DELETE FROM "mendixsystem$entityidentifier" WHERE "id"='d4154981-8dac-4150-aec5-efa3ef62a7a2'
+INSERT INTO "mendixsystem$entityidentifier" VALUES('d4154981-8dac-4150-aec5-efa3ef62a7a2',2,201)
+COMMIT
+/*C2*/INSERT INTO "system$xasinstance" VALUES(562949953421413,'9d7d2ec8-3650-44f9-8ccd-f989fa12697f','2018-07-12 13:19:04.393000','2018-07-12 13:19:04.364000',NULL,NULL,NULL)
+COMMIT
+/*C3*/DELETE FROM "system$xasinstance" WHERE "id"=562949953421413
+INSERT INTO "system$xasinstance" VALUES(562949953421413,'9d7d2ec8-3650-44f9-8ccd-f989fa12697f','2018-07-12 13:19:04.393000','2018-07-12 13:24:04.504000',NULL,NULL,NULL)
+COMMIT
